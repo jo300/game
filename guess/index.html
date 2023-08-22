@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+</head>
+<style>
+    * {
+        font-size: 24px;
+        color: white;
+    }
+
+    .try {
+        width: 80px;
+        height: 40px;
+        border: blue solid 2px;
+        background: gray;
+    }
+
+    .check {
+        width: 80px;
+        height: 50px;
+        border: blue solid 2px;
+        background: gray;
+
+    }
+
+    .guess {
+        width: 100px;
+        height: 50px;
+        color: black;
+        font-size: 28px;
+        outline-color: white;
+    }
+
+    .qn {
+        width: 80px;
+        height: 50px;
+        background: red;
+    }
+
+    .qn span {
+        padding-left: 15px;
+        font-size: 44px;
+
+    }
+</style>
+
+<body>
+    <button class="try">Again</button>
+    <label for="guess number 1 to 20">guess number 1 to 20</label>
+
+    <hr>
+    <div class="qn"> <span class="answer">?</span> </div>
+    <hr>
+    <input class="guess" type="number">
+    <p class="message">Message😁 </p>
+    <p class="score">💯Score </p>
+    <button class="check">Check</button>
+
+</body>
+
+<script src="guess.js"></script>
+
+</html>
